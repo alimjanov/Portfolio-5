@@ -1,0 +1,147 @@
+@media(max-width: 1400px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+
+
+@media(max-width: 1200px) {
+    .container {
+        max-width: 991px;
+    }
+
+    .main-content a {
+        padding: 20px 25px;
+    }
+
+    .workers .card {
+        flex-wrap: wrap;
+        margin-left: 10px;
+    }
+
+    .advant .wrapper .card {
+        width: 450px;
+    }
+
+    .Contact .fill {
+        margin-left: 15px;
+    }
+}
+
+
+@media(max-width: 1020px) {
+    .container {
+        max-width: 767px;
+    }
+
+    .main-content .text {
+        font-size: 17px;
+    }
+
+    .main-content a {
+        width: 300px;
+        height: 70px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .workers .card {
+        margin-bottom: 20px;
+    }
+
+    .workers .worker-wrapper .card .title {
+        font-size: 20px;
+    }
+
+    .about-content .content-title {
+        font-size: 30px;
+    }
+
+    .short .short-title {
+        margin: 20px 0 10px;
+    }
+
+    .wrapper .card {
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .header-nav .menu-link {
+        font-size: 17px;
+    }
+}
+
+/*/////////////////////////////////////*/
+@media(max-width: 800px) {
+    .container {
+        max-width: 576px;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .main-content .text {
+        font-size: 16px;
+    }
+
+    .main-content a {
+        height: 60px;
+        width: 260px;
+    }
+
+    .about .image {
+        padding-top: 80px;
+    }
+
+    .about .content-title {
+        font-size: 28px;
+    }
+
+    .about .short-title {
+        font-size: 24px;
+    }
+
+    .about .text{
+        font-size: 15px;
+    }
+
+    .social {
+        padding-left: 25px;
+    }
+}
+
+
+/*/////////////////////////////////////*/
+@media(max-width: 576px) {
+    nav .header-nav {
+        display: none;
+    }
+
+    .job-wrapper .card {
+        width: 260px;
+    }
+
+    .site-title .title {
+        font-size: 30px;
+    }
+
+    .advant .wrapper .card {
+        width: 440px;
+    }
+
+    .site-title .subtitle {
+        font-size: 14px;
+    }
+
+    .partners .slider .arrows {
+        display: none;
+    }
+
+    .slider {
+        flex-wrap: wrap;
+    }
+    
+}
